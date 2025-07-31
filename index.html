@@ -1,13 +1,76 @@
 <html>
 
 <head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.sng {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.def {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
 <title>Florida SEACAR GitHub Index</title>
 <div class="chunk" id="navbar"><div class="rcode"><!--html_preserve--><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color:#045273 !important;">
   <a class="navbar-brand" href="https://floridaseacar.github.io/">
-    <img src="images/logo-dep-color-small.png" width="82.5" height="55" alt="">Florida SEACAR
+    <img src="https://floridaseacar.github.io/images/logo-dep-color-small.png" width="82.5" height="55" alt="">Florida SEACAR
   </a>
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav">
@@ -92,7 +155,6 @@
     </ul>
   </div>
 </nav><!--/html_preserve--></div></div>
-<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -110,17 +172,9 @@ Proin maximus risus ante, sed tincidunt arcu gravida non. Aenean lacinia nulla v
 Vivamus lobortis ipsum luctus diam viverra pretium. Proin pulvinar enim gravida vehicula ultrices. Nullam blandit dapibus elit vel hendrerit. Quisque quis imperdiet turpis, vel ornare urna. Curabitur lorem ipsum, blandit in metus at, volutpat luctus velit. Vivamus aliquam lobortis tristique. Praesent tempus vestibulum enim, ut semper urna ultrices vitae. Duis congue nunc ac lorem imperdiet placerat. Maecenas quis velit sem. Donec eu dictum turpis. Pellentesque volutpat felis sit amet vestibulum dictum. Maecenas ullamcorper eleifend fringilla.</p>
 </div>
 
-<div class="funding_text">
 <hr>
-<div class="chunk" id="funding"><div class="rcode"><!--html_preserve--><html>
-
-<head>
-<title>Title</title>
-</head>
-
-<body>
-
-<h4>Funding & Acknowledgements</h4>
+<div class="funding_text">
+<div class="chunk" id="funding"><div class="rcode"><!--html_preserve--><h4>Funding & Acknowledgements</h4>
 
 <p>The data used in this analysis is from the Export Standardized Tables in the SEACAR Data Discovery Interface (DDI). Documents and information available through the SEACAR DDI are owned by the data provider(s) and users are expected to provide appropriate credit following accepted citation formats. Users are encouraged to access data to maximize utilization of gained knowledge, reducing redundant research and facilitating partnerships and scientific innovation.
 
@@ -128,9 +182,10 @@ With respect to documents and information available from SEACAR DDI, neither the
 
 This report was funded in part, through a grant agreement from the Florida Department of Environmental Protection, Florida Coastal Management Program, by a grant provided by the Office for Coastal Management under the Coastal Zone Management Act of 1972, as amended, National Oceanic and Atmospheric Administration. The views, statements, findings, conclusions and recommendations expressed herein are those of the author(s) and do not necessarily reflect the views of the State of Florida, NOAA or any of their sub agencies.</p>
 
-</body>
-</html><!--/html_preserve--></div></div>
-  <p>Published: <code class="knitr inline">2025-07-30</code></p>
+<div style = "funding_text">
+<img src="https://floridaseacar.github.io/images/dep-logos.png">
+</div><!--/html_preserve--></div></div>
+  <p class="publish_date">Published: <code class="knitr inline">2025-07-31</code></p>
 </div>
 
 </body>

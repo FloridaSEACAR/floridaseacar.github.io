@@ -5,3 +5,13 @@
 .funding_text {
   margin:20px;
 }
+
+.funding_text img {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+
+.publish_date {
+  text-align: center;
+}
