@@ -5,21 +5,288 @@
 <!--begin.rcode navbar, echo=F
 htmltools::includeHTML("navbar.html")
 end.rcode-->
+<style>
+  .row {
+    margin-top:10px; margin-bottom:10px;
+  }
+</style>
 </head>
 
 <body>
 
-<div class="body_text">
-  <p>Welcome to the Florida SEACAR GitHub index!</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fermentum consequat justo, quis vehicula velit luctus eget. Cras lobortis lectus sem, ac imperdiet ligula gravida ut. Nullam sit amet massa a ex aliquam blandit nec ut dui. Nunc non mauris dapibus, elementum quam at, suscipit turpis. Morbi at maximus dui. Suspendisse potenti. Vestibulum et arcu eu turpis imperdiet fringilla luctus et metus. Quisque convallis in dui at ultrices. Ut sit amet ipsum ornare, varius enim quis, fermentum nulla. Phasellus lacinia dui eu tristique posuere. Pellentesque et dui eu ipsum interdum efficitur.
-
-Donec finibus turpis sed nisi volutpat, ut consequat ipsum dapibus. Aliquam erat volutpat. Aenean at sapien vitae est pellentesque auctor. Curabitur non lectus nisi. Quisque fringilla auctor quam, non pellentesque diam volutpat sit amet. Quisque a mauris ut orci tincidunt consectetur. Fusce eget urna imperdiet, semper nisi ac, pellentesque sapien. Morbi eget sem quis orci convallis imperdiet varius eget ipsum. Sed magna libero, gravida bibendum consectetur sed, elementum non nisi. Sed eget pharetra felis. Nulla porttitor orci eget consectetur cursus. Etiam sagittis turpis ut dui facilisis, non ultricies neque pellentesque. Suspendisse eu odio enim. In hac habitasse platea dictumst.
-
-Donec posuere elit eu velit finibus, non eleifend erat feugiat. Vestibulum consequat nulla lacus, at gravida justo dapibus vel. Praesent nec posuere sapien, quis placerat lorem. Quisque eu neque ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor purus eu nibh consectetur blandit. Nullam tempus metus eu purus interdum aliquam. Suspendisse hendrerit fringilla velit, ut laoreet nunc finibus nec. Etiam at nisi auctor, tempus purus eget, pellentesque augue. Nulla facilisi. Praesent vitae cursus erat. Curabitur posuere nisl est.
-
-Proin maximus risus ante, sed tincidunt arcu gravida non. Aenean lacinia nulla vitae augue pellentesque gravida. Cras a ex felis. Duis condimentum nibh at fringilla consequat. Suspendisse non est nunc. Sed pellentesque velit a nisl convallis consequat. Maecenas non enim eu nulla mattis ullamcorper.
-
-Vivamus lobortis ipsum luctus diam viverra pretium. Proin pulvinar enim gravida vehicula ultrices. Nullam blandit dapibus elit vel hendrerit. Quisque quis imperdiet turpis, vel ornare urna. Curabitur lorem ipsum, blandit in metus at, volutpat luctus velit. Vivamus aliquam lobortis tristique. Praesent tempus vestibulum enim, ut semper urna ultrices vitae. Duis congue nunc ac lorem imperdiet placerat. Maecenas quis velit sem. Donec eu dictum turpis. Pellentesque volutpat felis sit amet vestibulum dictum. Maecenas ullamcorper eleifend fringilla.</p>
+<div class="container-fluid">
+  <p style = "margin-top:20px;">Welcome to the Florida SEACAR GitHub index! Click on the thumbnails below or browse the menu above to get started.</p>
+  <div class="row" style="display:flex; justify-content:center; align-items:flex-start;">
+    <h2>Dashboards</h2>
+    <div class="col-md-4" style = "text-align:center;">
+      <h5>SEACAR Habitat Dashboard</h5>
+      <a href = "https://floridaapdata.shinyapps.io/SEACAR_Dashboard/" target="_blank">
+        <img src = "images/thumbnails/habitat_dash.png" height = 150px width = 375px style = "border-radius:15px; border: 1px solid black;">
+      </a>
+    </div>
+    <div class="col-md-4" style = "text-align:center;">
+      <h5>Continuous Water Quality Dashboard</h5>
+      <a href = "https://floridaapdata.shinyapps.io/continuous_wq/" target="_blank">
+        <img src = "images/thumbnails/wq_dash.png" height = 150px width = 375px style = "border-radius:15px; border: 1px solid black;">
+      </a>
+    </div>
+    <div class="col-md-4" style = "text-align:center;"></div>
+  </div>
+    <div class="row" style="display:flex; align-items:center;">
+    <h2>Monitoring Tools</h2>
+    <div class="col-md-4" style = "text-align:center;">
+      <h5>Oyster Sample Size and Site Selection Tool</h5>
+      <a href = "https://floridaapdata.shinyapps.io/MonitoringPlanningTools/" target="_blank">
+        <img src = "images/thumbnails/oyster_dash.png" height = 150px width = 375px style = "border-radius:15px; border: 1px solid black;">
+      </a>
+    </div>
+  </div>
+  <div class="row" style="display:flex; justify-content:center; align-items:flex-start;">
+    <h2>Reports</h2>
+    <div class="col-md-4" style = "text-align:center;">
+      <h5>Managed Area Reports</h5>
+      <a href = "https://floridaseacar.github.io/SEACAR_Trend_Analyses/MA%20Report%20Generation/">
+        <img src = "images/thumbnails/ma_reports.png" height = 150px width = 375px style = "border-radius:15px; border: 1px solid black;">
+      </a>
+    </div>
+    <div class="col-md-4" style = "text-align:center;">
+      <h5>Water Quality Reports</h5>
+      <a href = "https://floridaseacar.github.io/SEACAR_Trend_Analyses/WQ_Cont_Discrete/">
+        <img src = "images/thumbnails/wq_reports.png" height = 150px width = 375px style = "border-radius:15px; border: 1px solid black;">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <h5>Individual Habitat Reports</h5>
+      <div>
+        <ul>
+          <li>
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_Report.html", target="_blank">
+              Coastal Wetlands Species Richness
+            </a>
+          </li>
+          <li>
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coral/output/PercentCover/Coral_PercentCover_Report.html", target="_blank">
+              Coral Percent Cover
+            </a> | 
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coral/output/SpeciesRichness/Coral_SpeciesRichness_Report.html", target="_blank">
+              Coral Species Richness
+            </a>
+            </li>
+          <li>
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Nekton/output/Nekton_SpeciesRichness_Report.html", target="_blank">
+              Nekton Species Richness
+            </a>
+          </li>
+          <li>
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Oyster/output/Oyster_AllParameters_Report.html", target="_blank">
+              Oyster Reef
+            </a>
+          </li>
+          <li>
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/SAV/output/SAV_Report.html", target="_blank">
+              Submerged Aquatic Vegetation
+            </a>
+          </li>
+          <li>
+            <a href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/SAV_WC_Analysis/DRAFT_SAV_WC_Report.pdf", target="_blank">
+              Submerged Aquatic Vegetation - Water Column Analysis
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <h2>Analysis Results</h2>
+  <div class="row" style="display:flex; justify-content:center; align-items:flex-start;">
+    <div class="col-md-4">
+      <h6>Coastal Wetlands</h6>
+      <ul>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_MA_MMYY_Stats.txt" target="_blank">
+            Species Richness - by Month and Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_MA_Mo_Stats.txt" target="_blank">
+            Species Richness - by Month
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_MA_Yr_Stats.txt" target="_blank">
+            Species Richness - by Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_MA_Overall_Stats.txt" target="_blank">
+            Species Richness - Overall Stats
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h6>Coral Reef</h6>
+      <ul>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/SpeciesRichness/Coral_SpeciesRichness_MA_MMYY_Stats.txt" target="_blank">
+            Species Richness - by Month and Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/SpeciesRichness/Coral_SpeciesRichness_MA_Mo_Stats.txt" target="_blank">
+            Species Richness - by Month
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/SpeciesRichness/Coral_SpeciesRichness_MA_Yr_Stats.txt" target="_blank">
+            Species Richness - by Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/SpeciesRichness/Coral_SpeciesRichness_MA_Overall_Stats.txt" target="_blank">
+            Species Richness - Overall Stats
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/PercentCover/Coral_PC_LME_Stats.txt" target="_blank">
+            Percent Cover - Linear Mixed Effects Analysis Results
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/PercentCover/Coral_PC_MA_MMYY_Stats.txt" target="_blank">
+            Percent Cover - by Month and Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/PercentCover/Coral_PC_MA_Mo_Stats.txt" target="_blank">
+            Percent Cover - by Month
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/PercentCover/Coral_PC_MA_Yr_Stats.txt" target="_blank">
+            Percent Cover - by Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Coral/output/PercentCover/Coral_PC_MA_Overall_Stats.txt" target="_blank">
+            Percent Cover - Overall Stats
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h6>Oyster Reef</h6>
+      <ul>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/Oyster_All_GLMM_Stats.csv" target="_blank">
+            Oyster All Model Results
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/GLMM_AllDates_ModelResults.csv" target="_blank">
+            Oyster All Model Results (Detailed)
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_Dens_MA_MMYY_Stats.txt" target="_blank">
+            Density - by Month and Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_Dens_MA_Mo_Stats.txt" target="_blank">
+            Density - by Month
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_Dens_MA_Yr_Stats.txt" target="_blank">
+            Density - by Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_Dens_MA_Overall_Stats.txt" target="_blank">
+            Density - Overall Stats
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_PrcLive_MA_MMYY_Stats.txt" target="_blank">
+            Percent Live - by Month and Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_PrcLive_MA_Mo_Stats.txt" target="_blank">
+            Percent Live - by Month
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_PrcLive_MA_Yr_Stats.txt" target="_blank">
+            Percent Live - by Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_PrcLive_MA_Overall_Stats.txt" target="_blank">
+            Percent Live - Overall Stats
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_SH_MA_MMYY_Stats.txt" target="_blank">
+            Shell Height - by Month and Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_SH_MA_Mo_Stats.txt" target="_blank">
+            Shell Height - by Month
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_SH_MA_Yr_Stats.txt" target="_blank">
+            Shell Height - by Year
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/Oyster/output/ManagedAreaName/Oyster_SH_MA_Overall_Stats.txt" target="_blank">
+            Shell Height - Overall Stats
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row" style="display:flex; justify-content:center; align-items:flex-start;">
+    <div class="col-md-4">
+      <h6>Submerged Aquatic Vegetation</h6>
+      <ul>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/SAV/output/SAV_BBpct_Stats.txt" target="_blank">
+            Overall Statistics
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/SAV/output/website/SAV_BBpct_LMEresults_All.xlsx" target="_blank">
+            Linear Mixed Effects Analysis Results
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/SAV/output/SAV_temporal_scope_plots" target="_blank">
+            Spatio-temporal Scope Plots
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h6>Water Quality</h6>
+      <ul>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/WQ_Cont_Discrete/output/WQ_Continuous_All_KendallTau_Stats.csv" target="_blank">
+            Continuous WQ - Kendall Tau Analysis Results
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/blob/main/WQ_Cont_Discrete/output/WQ_Discrete_All_KendallTau_Stats.csv" target="_blank">
+            Discrete WQ - Kendall Tau Analysis Results
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
 </div>
 
 <hr>
