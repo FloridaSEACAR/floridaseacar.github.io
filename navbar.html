@@ -3,93 +3,105 @@
 <link rel="stylesheet" href="https://floridaseacar.github.io/style.css">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color:#045273 !important;">
-  <a class="navbar-brand" href="https://floridaseacar.github.io/">
-    <img src="https://floridaseacar.github.io/images/logo-dep-color-small.png" width="82.5" height="55" alt="">Florida SEACAR
-  </a>
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Reports</a>
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/MA%20Report%20Generation/">Managed Area Reports</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/WQ_Cont_Discrete/">Water Quality Reports</a>
-          </li>
-          <li><hr class="dropdown-divider"></li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_Report.html", target="_blank">
-              Coastal Wetlands Species Richness
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coral/output/PercentCover/Coral_PercentCover_Report.html", target="_blank">
-             Coral Percent Cover
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coral/output/SpeciesRichness/Coral_SpeciesRichness_Report.html", target="_blank">
-             Coral Species Richness
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Nekton/output/Nekton_SpeciesRichness_Report.html", target="_blank">
-             Nekton Species Richness
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Oyster/output/Oyster_AllParameters_Report.html", target="_blank">
-             Oyster (All parameters)
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/SAV/output/SAV_Report.html", target="_blank">
-             Submerged Aquatic Vegetation
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/SAV_WC_Analysis/DRAFT_SAV_WC_Report.pdf", target="_blank">
-             Submerged Aquatic Vegetation - Water Column Analysis
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SEACAR Dashboards</a>
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" href="https://floridaapdata.shinyapps.io/SEACAR_Dashboard/", target="_blank">Habitat Dashboard</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaapdata.shinyapps.io/continuous_wq/", target="_blank">Continuous WQ Dashboard</a>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://floridaseacar.github.io/">
+      <img src="https://floridaseacar.github.io/images/logo-dep-color-small.png" width="82.5" height="55" alt="">Florida SEACAR
+    </a>
+  
+    <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Reports</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/MA%20Report%20Generation/">Managed Area Reports</a>
             </li>
-          <li>
-            <a class="dropdown-item" href="https://floridaapdata.shinyapps.io/MonitoringPlanningTools/", target="_blank">Monitoring Planning Tools - Oyster Sample Size and Site Selection Tool</a>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/WQ_Cont_Discrete/">Water Quality Reports</a>
             </li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SEACAR Trend Analyses</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Coastal_Wetlands" target="_blank">Coastal Wetlands</a></li>
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Coral" target="_blank">Coral Reef</a></li>
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Nekton" target="_blank">Nekton</a></li>
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Oyster" target="_blank">Oyster Reef</a></li>
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/SAV" target="_blank">Submerged Aquatic Vegetation</a></li>
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/SAV_WC_Analysis" target="_blank">
-            Submerged Aquatic Vegetation - Water Column Analysis</a></li>
-          <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/WQ_Cont_Discrete" target="_blank">
-            Water Quality (Discrete and Continuous)</a></li>
-        </ul>
-      </li>
-    </ul>
-    <ul class = "nav ms-auto">
-      <li class="nav-item">
-        <a class="navbar-brand" href="https://github.com/FloridaSEACAR", target="_blank">
-          <img src="https://floridaseacar.github.io/images/GitHub_Invertocat_Light.png" width="30" height="30" alt="">
-        </a>
-      </li>
-    </ul>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coastal_Wetlands/output/CoastalWetlands_SpeciesRichness_Report.html", target="_blank">
+                Coastal Wetlands Species Richness
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coral/output/PercentCover/Coral_PercentCover_Report.html", target="_blank">
+               Coral Percent Cover
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Coral/output/SpeciesRichness/Coral_SpeciesRichness_Report.html", target="_blank">
+               Coral Species Richness
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Nekton/output/Nekton_SpeciesRichness_Report.html", target="_blank">
+               Nekton Species Richness
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/Oyster/output/Oyster_AllParameters_Report.html", target="_blank">
+               Oyster (All parameters)
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/SAV/output/SAV_Report.html", target="_blank">
+               Submerged Aquatic Vegetation
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaseacar.github.io/SEACAR_Trend_Analyses/SAV_WC_Analysis/DRAFT_SAV_WC_Report.pdf", target="_blank">
+               Submerged Aquatic Vegetation - Water Column Analysis
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SEACAR Dashboards</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="https://floridaapdata.shinyapps.io/SEACAR_Dashboard/", target="_blank">Habitat Dashboard</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaapdata.shinyapps.io/continuous_wq/", target="_blank">Continuous WQ Dashboard</a>
+              </li>
+            <li>
+              <a class="dropdown-item" href="https://floridaapdata.shinyapps.io/MonitoringPlanningTools/", target="_blank">Monitoring Planning Tools - Oyster Sample Size and Site Selection Tool</a>
+              </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SEACAR Trend Analyses</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Coastal_Wetlands" target="_blank">Coastal Wetlands</a></li>
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Coral" target="_blank">Coral Reef</a></li>
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Nekton" target="_blank">Nekton</a></li>
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/Oyster" target="_blank">Oyster Reef</a></li>
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/SAV" target="_blank">Submerged Aquatic Vegetation</a></li>
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/SAV_WC_Analysis" target="_blank">
+              Submerged Aquatic Vegetation - Water Column Analysis</a></li>
+            <li><a class="dropdown-item" href="https://github.com/FloridaSEACAR/SEACAR_Trend_Analyses/tree/main/WQ_Cont_Discrete" target="_blank">
+              Water Quality (Discrete and Continuous)</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class = "nav ms-auto">
+        <li class="nav-item">
+          <a class="navbar-brand" href="https://github.com/FloridaSEACAR", target="_blank">
+            <img src="https://floridaseacar.github.io/images/GitHub_Invertocat_Light.png" width="30" height="30" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
